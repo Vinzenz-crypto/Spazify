@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Spazify - Your class. Your soundtrack.</title>
+    <meta name="description" content="See what your class is listening to: live class charts, shared playlists and group listening challenges. Join with Spotify, Apple Music, Amazon Music - or privately." />
+    <meta name="theme-color" content="#07070c" />
+    <meta name="color-scheme" content="dark" />
+    <meta property="og:title" content="Spazify - Your class. Your soundtrack." />
+    <meta property="og:description" content="Class charts, shared playlists and group listening challenges for your school class." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/og.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href="img/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preload" href="fonts/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="fonts/bricolage-grotesque-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="css/app.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="bg-aurora" aria-hidden="true"><span></span><span></span><span></span></div>
+    <div id="app">
+      <noscript>
+        <div style="padding:40px;text-align:center;font-family:system-ui">Spazify needs JavaScript to work. Please enable it in your browser.</div>
+      </noscript>
+    </div>
+    <div id="player-root"></div>
+    <div id="modal-root"></div>
+    <div id="toast-root" class="toasts" aria-live="polite"></div>
+  </body>
+</html>
